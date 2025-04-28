@@ -1,0 +1,5138 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MIDIFramework",
+    "printedName": "MIDIFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreMIDI",
+        "printedName": "CoreMIDI",
+        "declKind": "Import",
+        "moduleName": "MIDIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MIDIFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LMIDIDelegate",
+        "printedName": "LMIDIDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "messageReceived",
+            "printedName": "messageReceived(receiveData:MIDITimeStamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework13LMIDIDelegateP15messageReceived11receiveData13MIDITimeStampy10Foundation0F0V_s6UInt64VtF",
+            "mangledName": "$s13MIDIFramework13LMIDIDelegateP15messageReceived11receiveData13MIDITimeStampy10Foundation0F0V_s6UInt64VtF",
+            "moduleName": "MIDIFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MIDIFramework.LMIDIDelegate>",
+            "sugared_genericSig": "<Self where Self : MIDIFramework.LMIDIDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13MIDIFramework13LMIDIDelegateP",
+        "mangledName": "$s13MIDIFramework13LMIDIDelegateP",
+        "moduleName": "MIDIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LMIDIEventSetting",
+        "printedName": "LMIDIEventSetting",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noteOff_8x",
+            "printedName": "noteOff_8x",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10noteOff_8xSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noteOn_9x",
+            "printedName": "noteOn_9x",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV9noteOn_9xSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "polyKeyPressure_Ax",
+            "printedName": "polyKeyPressure_Ax",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18polyKeyPressure_AxSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "controlChange_Bx",
+            "printedName": "controlChange_Bx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16controlChange_BxSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "programChange_Cx",
+            "printedName": "programChange_Cx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16programChange_CxSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chPressure_Dx",
+            "printedName": "chPressure_Dx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV13chPressure_DxSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pitchBend_Ex",
+            "printedName": "pitchBend_Ex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV12pitchBend_ExSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemExclusive_F0",
+            "printedName": "systemExclusive_F0",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0Sbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0Sbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0Sbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0Sbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0Sbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0Sbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0SbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV18systemExclusive_F0SbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timingClock_F8",
+            "printedName": "timingClock_F8",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV14timingClock_F8Sbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14timingClock_F8Sbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV14timingClock_F8Sbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14timingClock_F8Sbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV14timingClock_F8Sbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14timingClock_F8Sbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV14timingClock_F8SbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14timingClock_F8SbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reserve_F9",
+            "printedName": "reserve_F9",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_F9Sbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_F9Sbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_F9Sbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_F9Sbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_F9Sbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_F9Sbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_F9SbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_F9SbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "start_FA",
+            "printedName": "start_FA",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV8start_FASbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV8start_FASbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV8start_FASbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV8start_FASbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV8start_FASbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV8start_FASbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV8start_FASbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV8start_FASbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continue_FB",
+            "printedName": "continue_FB",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV11continue_FBSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV11continue_FBSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV11continue_FBSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV11continue_FBSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV11continue_FBSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV11continue_FBSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV11continue_FBSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV11continue_FBSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stop_FC",
+            "printedName": "stop_FC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV7stop_FCSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV7stop_FCSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV7stop_FCSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV7stop_FCSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV7stop_FCSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV7stop_FCSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV7stop_FCSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV7stop_FCSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reserve_FD",
+            "printedName": "reserve_FD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV10reserve_FDSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activeSensing_FE",
+            "printedName": "activeSensing_FE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV16activeSensing_FESbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemReset_FF",
+            "printedName": "systemReset_FF",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvp",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvg",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvs",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvM",
+                "mangledName": "$s13MIDIFramework17LMIDIEventSettingV14systemReset_FFSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LMIDIEventSetting",
+                "printedName": "MIDIFramework.LMIDIEventSetting",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV4save6forKeyySS_tF",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV4save6forKeyySS_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LMIDIEventSetting",
+                "printedName": "MIDIFramework.LMIDIEventSetting",
+                "usr": "s:13MIDIFramework17LMIDIEventSettingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV4load6forKeyACSS_tFZ",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV4load6forKeyACSS_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework17LMIDIEventSettingV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13MIDIFramework17LMIDIEventSettingV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MIDIFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13MIDIFramework17LMIDIEventSettingV",
+        "mangledName": "$s13MIDIFramework17LMIDIEventSettingV",
+        "moduleName": "MIDIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LMIDI",
+        "printedName": "LMIDI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connectionChangedNotification",
+            "printedName": "connectionChangedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC29connectionChangedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC29connectionChangedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC29connectionChangedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC29connectionChangedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "messageReceivedNotification",
+            "printedName": "messageReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC27messageReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC27messageReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC27messageReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC27messageReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemExclusiveReceivedNotification",
+            "printedName": "systemExclusiveReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC35systemExclusiveReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC35systemExclusiveReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC35systemExclusiveReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC35systemExclusiveReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noteMessageReceivedNotification",
+            "printedName": "noteMessageReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC31noteMessageReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC31noteMessageReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC31noteMessageReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC31noteMessageReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noteOnMessageReceivedNotification",
+            "printedName": "noteOnMessageReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC33noteOnMessageReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC33noteOnMessageReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC33noteOnMessageReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC33noteOnMessageReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noteOffMessageReceivedNotification",
+            "printedName": "noteOffMessageReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC34noteOffMessageReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC34noteOffMessageReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC34noteOffMessageReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC34noteOffMessageReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "polyKeyPressureReceivedNotification",
+            "printedName": "polyKeyPressureReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC35polyKeyPressureReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC35polyKeyPressureReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC35polyKeyPressureReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC35polyKeyPressureReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chPressureReceivedNotification",
+            "printedName": "chPressureReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC30chPressureReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC30chPressureReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC30chPressureReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC30chPressureReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "controlChangeReceivedNotification",
+            "printedName": "controlChangeReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC33controlChangeReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC33controlChangeReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC33controlChangeReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC33controlChangeReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pitchBendReceivedNotification",
+            "printedName": "pitchBendReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC29pitchBendReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC29pitchBendReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC29pitchBendReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC29pitchBendReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "programChangeReceivedNotification",
+            "printedName": "programChangeReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC33programChangeReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC33programChangeReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC33programChangeReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC33programChangeReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activeSensingReceivedNotification",
+            "printedName": "activeSensingReceivedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC33activeSensingReceivedNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC33activeSensingReceivedNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC33activeSensingReceivedNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC33activeSensingReceivedNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "receivedPacketKey",
+            "printedName": "receivedPacketKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC17receivedPacketKeySSvpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC17receivedPacketKeySSvpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC17receivedPacketKeySSvgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC17receivedPacketKeySSvgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeStampKey",
+            "printedName": "timeStampKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC12timeStampKeySSvpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC12timeStampKeySSvpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC12timeStampKeySSvgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC12timeStampKeySSvgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemExclusiveSnedCompleteNotification",
+            "printedName": "systemExclusiveSnedCompleteNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notePreviewFinishNotification",
+            "printedName": "notePreviewFinishNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC29notePreviewFinishNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC29notePreviewFinishNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC29notePreviewFinishNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC29notePreviewFinishNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notePreviewFinishChKey",
+            "printedName": "notePreviewFinishChKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC22notePreviewFinishChKeySSvpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC22notePreviewFinishChKeySSvpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC22notePreviewFinishChKeySSvgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC22notePreviewFinishChKeySSvgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sourceNames",
+            "printedName": "sourceNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC11sourceNamesSaySSGvpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC11sourceNamesSaySSGvpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC11sourceNamesSaySSGvgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC11sourceNamesSaySSGvgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "destinationNames",
+            "printedName": "destinationNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC16destinationNamesSaySSGvpZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC16destinationNamesSaySSGvpZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC16destinationNamesSaySSGvgZ",
+                "mangledName": "$s13MIDIFramework5LMIDIC16destinationNamesSaySSGvgZ",
+                "moduleName": "MIDIFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sourceName",
+            "printedName": "sourceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvg",
+                "moduleName": "MIDIFramework",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvs",
+                "moduleName": "MIDIFramework",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "destinationName",
+            "printedName": "destinationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvg",
+                "moduleName": "MIDIFramework",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvs",
+                "moduleName": "MIDIFramework",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDisplayDebugMessage",
+            "printedName": "isDisplayDebugMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC21isDisplayDebugMessageSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MIDIFramework.LMIDIDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LMIDIDelegate",
+                    "printedName": "any MIDIFramework.LMIDIDelegate",
+                    "usr": "s:13MIDIFramework13LMIDIDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MIDIFramework.LMIDIDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LMIDIDelegate",
+                        "printedName": "any MIDIFramework.LMIDIDelegate",
+                        "usr": "s:13MIDIFramework13LMIDIDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MIDIFramework.LMIDIDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LMIDIDelegate",
+                        "printedName": "any MIDIFramework.LMIDIDelegate",
+                        "usr": "s:13MIDIFramework13LMIDIDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC8delegateAA13LMIDIDelegate_pSgvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReceiveEnable",
+            "printedName": "isReceiveEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvp",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvg",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvs",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvM",
+                "moduleName": "MIDIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sourceName:destinationName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MIDIFramework.LMIDI?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LMIDI",
+                    "printedName": "MIDIFramework.LMIDI",
+                    "usr": "c:@M@MIDIFramework@objc(cs)LMIDI"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MIDIFramework5LMIDIC10sourceName011destinationD0ACSgSS_SStcfc",
+            "mangledName": "$s13MIDIFramework5LMIDIC10sourceName011destinationD0ACSgSS_SStcfc",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sourceExists",
+            "printedName": "sourceExists(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC12sourceExistsySbSSFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC12sourceExistsySbSSFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destinationExists",
+            "printedName": "destinationExists(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC17destinationExistsySbSSFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC17destinationExistsySbSSFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(packet:timeStamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC4send6packet9timeStampy10Foundation4DataV_s6UInt64VtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC4send6packet9timeStampy10Foundation4DataV_s6UInt64VtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(packet:timeStamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC4send6packet9timeStampy10Foundation4DataV_s6UInt64VtF",
+            "mangledName": "$s13MIDIFramework5LMIDIC4send6packet9timeStampy10Foundation4DataV_s6UInt64VtF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(packet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC4send6packety10Foundation4DataV_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC4send6packety10Foundation4DataV_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(packetArray:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC4send11packetArrayySay10Foundation4DataVG_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC4send11packetArrayySay10Foundation4DataVG_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(sysex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC4send5sysexy10Foundation4DataV_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC4send5sysexy10Foundation4DataV_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelSend",
+            "printedName": "cancelSend()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10cancelSendyyF",
+            "mangledName": "$s13MIDIFramework5LMIDIC10cancelSendyyF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteOn",
+            "printedName": "noteOn(ch:noteNumber:velocity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC6noteOn2ch0C6Number8velocity10Foundation4DataVs5UInt8V_A2LtF",
+            "mangledName": "$s13MIDIFramework5LMIDIC6noteOn2ch0C6Number8velocity10Foundation4DataVs5UInt8V_A2LtF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteOn",
+            "printedName": "noteOn(ch:noteNumber:velocity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC6noteOn2ch0C6Number8velocity10Foundation4DataVSi_S2itF",
+            "mangledName": "$s13MIDIFramework5LMIDIC6noteOn2ch0C6Number8velocity10Foundation4DataVSi_S2itF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteOff",
+            "printedName": "noteOff(ch:noteNumber:velocity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC7noteOff2ch0C6Number8velocity10Foundation4DataVs5UInt8V_A2LtF",
+            "mangledName": "$s13MIDIFramework5LMIDIC7noteOff2ch0C6Number8velocity10Foundation4DataVs5UInt8V_A2LtF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteOff",
+            "printedName": "noteOff(ch:noteNumber:velocity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC7noteOff2ch0C6Number8velocity10Foundation4DataVSi_S2itF",
+            "mangledName": "$s13MIDIFramework5LMIDIC7noteOff2ch0C6Number8velocity10Foundation4DataVSi_S2itF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allNoteOff",
+            "printedName": "allNoteOff(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10allNoteOff2ch10Foundation4DataVs5UInt8V_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC10allNoteOff2ch10Foundation4DataVs5UInt8V_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allNoteOff",
+            "printedName": "allNoteOff(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10allNoteOff2ch10Foundation4DataVSi_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC10allNoteOff2ch10Foundation4DataVSi_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allNoteOff",
+            "printedName": "allNoteOff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10allNoteOffSay10Foundation4DataVGyF",
+            "mangledName": "$s13MIDIFramework5LMIDIC10allNoteOffSay10Foundation4DataVGyF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allSoundOff",
+            "printedName": "allSoundOff(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11allSoundOff2ch10Foundation4DataVs5UInt8V_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC11allSoundOff2ch10Foundation4DataVs5UInt8V_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allSoundOff",
+            "printedName": "allSoundOff(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11allSoundOff2ch10Foundation4DataVSi_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC11allSoundOff2ch10Foundation4DataVSi_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allSoundOff",
+            "printedName": "allSoundOff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11allSoundOffSay10Foundation4DataVGyF",
+            "mangledName": "$s13MIDIFramework5LMIDIC11allSoundOffSay10Foundation4DataVGyF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetAllController",
+            "printedName": "resetAllController(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18resetAllController2ch10Foundation4DataVs5UInt8V_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC18resetAllController2ch10Foundation4DataVs5UInt8V_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetAllController",
+            "printedName": "resetAllController(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18resetAllController2ch10Foundation4DataVSi_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC18resetAllController2ch10Foundation4DataVSi_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetAllController",
+            "printedName": "resetAllController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18resetAllControllerSay10Foundation4DataVGyF",
+            "mangledName": "$s13MIDIFramework5LMIDIC18resetAllControllerSay10Foundation4DataVGyF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteNumber",
+            "printedName": "noteNumber(noteName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt8?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10noteNumber0C4Names5UInt8VSgSS_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC10noteNumber0C4Names5UInt8VSgSS_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messageName",
+            "printedName": "messageName(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11messageName2ofSSSg10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC11messageName2ofSSSg10Foundation4DataV_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteName",
+            "printedName": "noteName(noteNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC8noteName0C6NumberSSSgs5UInt8V_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC8noteName0C6NumberSSSgs5UInt8V_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "noteName",
+            "printedName": "noteName(noteNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC8noteName0C6NumberSSSgSi_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC8noteName0C6NumberSSSgSi_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controlChangeName",
+            "printedName": "controlChangeName(CC:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC17controlChangeName2CCSSSgs5UInt8V_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC17controlChangeName2CCSSSgs5UInt8V_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controlChangeName",
+            "printedName": "controlChangeName(CC:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC17controlChangeName2CCSSSgSi_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC17controlChangeName2CCSSSgSi_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notePreview",
+            "printedName": "notePreview(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11notePreview2chys5UInt8V_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC11notePreview2chys5UInt8V_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notePreview",
+            "printedName": "notePreview(ch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11notePreview2chySi_tF",
+            "mangledName": "$s13MIDIFramework5LMIDIC11notePreview2chySi_tF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "texted",
+            "printedName": "texted(packet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC6texted6packetSS10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC6texted6packetSS10Foundation4DataV_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ch",
+            "printedName": "ch(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC2ch2ofSi10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC2ch2ofSi10Foundation4DataV_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messageTexted",
+            "printedName": "messageTexted(packet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC13messageTexted6packetSS10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC13messageTexted6packetSS10Foundation4DataV_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "converted8bitValue",
+            "printedName": "converted8bitValue(from7bitSMFSequence:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18converted8bitValue19from7bitSMFSequences6UInt32V10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC18converted8bitValue19from7bitSMFSequences6UInt32V10Foundation4DataV_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "converted7bitValue",
+            "printedName": "converted7bitValue(from8bitData:isDeltatime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18converted7bitValue12from8bitData11isDeltatimes6UInt32V10Foundation0F0V_SbtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC18converted7bitValue12from8bitData11isDeltatimes6UInt32V10Foundation0F0V_SbtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "converted7bitValue",
+            "printedName": "converted7bitValue(from8bit:isDeltataime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18converted7bitValue8from8bit12isDeltataimes6UInt32VAH_SbtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC18converted7bitValue8from8bit12isDeltataimes6UInt32VAH_SbtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "converted7bitData",
+            "printedName": "converted7bitData(from8bit:isDeltataime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC17converted7bitData8from8bit12isDeltataime10Foundation0D0Vs6UInt32V_SbtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC17converted7bitData8from8bit12isDeltataime10Foundation0D0Vs6UInt32V_SbtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "eventLength",
+            "printedName": "eventLength(from7BitSMFSequence:startIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(length: Swift.UInt32, size: Swift.Int, data: Foundation.Data)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11eventLength19from7BitSMFSequence10startIndexs6UInt32V6length_Si4size10Foundation4DataV4datatAM_SitFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC11eventLength19from7BitSMFSequence10startIndexs6UInt32V6length_Si4size10Foundation4DataV4datatAM_SitFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deltaTime",
+            "printedName": "deltaTime(from7BitSMFSequence:startIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(data: Foundation.Data, size: Swift.Int, value: Swift.UInt32)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC9deltaTime19from7BitSMFSequence10startIndex10Foundation4DataV4data_Si4sizes6UInt32V5valuetAI_SitFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC9deltaTime19from7BitSMFSequence10startIndex10Foundation4DataV4data_Si4sizes6UInt32V5valuetAI_SitFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "intervalTimeSecond",
+            "printedName": "intervalTimeSecond(beatTime:resolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC18intervalTimeSecond04beatD010resolutionSdSi_s6UInt16VtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC18intervalTimeSecond04beatD010resolutionSdSi_s6UInt16VtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "intervalTimeNanosecond",
+            "printedName": "intervalTimeNanosecond(beatTime:resolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC22intervalTimeNanosecond04beatD010resolutionS2i_s6UInt16VtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC22intervalTimeNanosecond04beatD010resolutionS2i_s6UInt16VtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "intervalTimeMillisecond",
+            "printedName": "intervalTimeMillisecond(beatTime:resolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC23intervalTimeMillisecond04beatD010resolutionS2i_s6UInt16VtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC23intervalTimeMillisecond04beatD010resolutionS2i_s6UInt16VtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "intervalTimeNanosecondAt120",
+            "printedName": "intervalTimeNanosecondAt120(resolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC27intervalTimeNanosecondAt12010resolutionSis6UInt16V_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC27intervalTimeNanosecondAt12010resolutionSis6UInt16V_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "intervalTimemMillisecondAt120",
+            "printedName": "intervalTimemMillisecondAt120(resolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC29intervalTimemMillisecondAt12010resolutionSis6UInt16V_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC29intervalTimemMillisecondAt12010resolutionSis6UInt16V_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tempo",
+            "printedName": "tempo(beatTime:resolution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC5tempo8beatTime10resolutionSdSi_s6UInt16VtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC5tempo8beatTime10resolutionSdSi_s6UInt16VtFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "beatTime",
+            "printedName": "beatTime(setTempoEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC8beatTime13setTempoEventSi10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC8beatTime13setTempoEventSi10Foundation4DataV_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isBlackKey",
+            "printedName": "isBlackKey(noteNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10isBlackKey10noteNumberSbSi_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC10isBlackKey10noteNumberSbSi_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isWhiteKey",
+            "printedName": "isWhiteKey(noteNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC10isWhiteKey10noteNumberSbSi_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC10isWhiteKey10noteNumberSbSi_tFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MIDIFramework@objc(cs)LMIDI",
+        "mangledName": "$s13MIDIFramework5LMIDIC",
+        "moduleName": "MIDIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MIDIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1051,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1166,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1206,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1402,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1433,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1497,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1569,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1606,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "Array",
+      "offset": 4426,
+      "length": 65,
+      "value": "[\"C\", \"C#\", \"D\", \"D#\", \"E\", \"F\", \"F#\", \"G\", \"G#\", \"A\", \"A#\", \"B\"]"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4520,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4544,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4613,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4619,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 4667,
+      "length": 6,
+      "value": "\"%@%d\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4783,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4866,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4896,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "Array",
+      "offset": 5007,
+      "length": 5197,
+      "value": "[\"Bank Select MSB\", \"Modulation\", \"Breath\", \"(3)\", \"Foot Type\", \"Portamento Time\", \"Data Entry MSB\", \"Volume\", \"Balance\", \"(9)\", \"Pan Pot\", \"Expression\", \"(12)\", \"(13)\", \"(14)\", \"(15)\", \"General-1\", \"General-2\", \"General-3\", \"General-4\", \"(20)\", \"(21)Reverb Level\", \"(22)GateRev Level\", \"(23)Delay Level\", \"(24)P.Shift Level\", \"(25)\", \"(26)\", \"(27)\", \"(28)\", \"(29)\", \"(30)\", \"(31)\", \"Bank Select LSB\", \"(33)\", \"(34)\", \"(35)\", \"(36)\", \"(37)\", \"Data Entry LSB\", \"(39)\", \"(40)\", \"(41)Reverb Decay\", \"(42)GateRev Time\", \"(43)Delay Time\", \"(44)P.Shift Value\", \"(45)\", \"(46)\", \"(47)\", \"(48)\", \"(49)\", \"(50)\", \"(51)\", \"(52)\", \"(53)\", \"(54)\", \"(55)\", \"(56)\", \"(57)\", \"(58)\", \"(59)\", \"(60)\", \"(61)\", \"(62)\", \"(63)\", \"Hold-1\", \"Portamento\", \"Sostenuto\", \"Soft\", \"Legato Sw\", \"Hold-2\", \"(70)\", \"Resonance\", \"Release Time\", \"Attack Time\", \"Cut Off\", \"Decay Time\", \"Vibrato Rate\", \"Vibrato Depth\", \"Vibrato Delay\", \"(79)\", \"Genaral-5\", \"Genaral-6\", \"Genaral-7\", \"Genaral-8\", \"Portamento Ctrl\", \"(85)\", \"(86)\", \"(87)\", \"(88)\", \"(89)\", \"(90)\", \"Reverb\", \"Tremolo\", \"Chorus\", \"Celeste\", \"Phaser\", \"(96)\", \"(97)\", \"NRPN LSB\", \"NRPN MSB\", \"RPN LSB\", \"RPN MSB\", \"(102)\", \"(103)\", \"(104)\", \"(105)\", \"(106)\", \"(107)\", \"(108)\", \"(109)\", \"(110)\", \"(111)\", \"(112)\", \"(113)\", \"(114)\", \"(115)\", \"(116)\", \"(117)\", \"(118)\", \"(119)\", \"All Sound Off\", \"Reset All Ctrl\", \"(122)\", \"All Note Off\", \"Omni Off\", \"Omni On\", \"Mono\", \"Poly\"]"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 10938,
+      "length": 35,
+      "value": "\"LMIDI.messageReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 11139,
+      "length": 43,
+      "value": "\"LMIDI.systemExclusiveReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 11324,
+      "length": 39,
+      "value": "\"LMIDI.noteMessageReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 11486,
+      "length": 41,
+      "value": "\"LMIDI.noteOnMessageReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 11651,
+      "length": 42,
+      "value": "\"LMIDI.noteOffMessageReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 11846,
+      "length": 43,
+      "value": "\"LMIDI.polyKeyPressureReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 12030,
+      "length": 38,
+      "value": "\"LMIDI.chPressureReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 12207,
+      "length": 41,
+      "value": "\"LMIDI.controlChangeReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 12375,
+      "length": 37,
+      "value": "\"LMIDI.pitchBendReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 12552,
+      "length": 41,
+      "value": "\"LMIDI.programChangeReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 12736,
+      "length": 41,
+      "value": "\"LMIDI.activeSensingReceivedNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 12919,
+      "length": 25,
+      "value": "\"LMIDI.receivedPacketKey\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 13101,
+      "length": 20,
+      "value": "\"LMIDI.timeStampKey\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 13441,
+      "length": 47,
+      "value": "\"LMIDI.systemExclusiveSnedCompleteNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 13621,
+      "length": 37,
+      "value": "\"LMIDI.notePreviewFinishNotification\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 13800,
+      "length": 30,
+      "value": "\"LMIDI.notePreviewFinishChKey\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15638,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 15842,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 17822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19161,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20027,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 55286,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 62416,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
