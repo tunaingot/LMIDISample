@@ -4892,245 +4892,245 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "Array",
-      "offset": 4426,
+      "offset": 4457,
       "length": 65,
       "value": "[\"C\", \"C#\", \"D\", \"D#\", \"E\", \"F\", \"F#\", \"G\", \"G#\", \"A\", \"A#\", \"B\"]"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4520,
+      "offset": 4551,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4544,
+      "offset": 4575,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4613,
+      "offset": 4644,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4619,
+      "offset": 4650,
       "length": 3,
       "value": "128"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 4667,
+      "offset": 4698,
       "length": 6,
       "value": "\"%@%d\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4783,
+      "offset": 4814,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4866,
+      "offset": 4897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4896,
+      "offset": 4927,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "Array",
-      "offset": 5007,
+      "offset": 5038,
       "length": 5197,
       "value": "[\"Bank Select MSB\", \"Modulation\", \"Breath\", \"(3)\", \"Foot Type\", \"Portamento Time\", \"Data Entry MSB\", \"Volume\", \"Balance\", \"(9)\", \"Pan Pot\", \"Expression\", \"(12)\", \"(13)\", \"(14)\", \"(15)\", \"General-1\", \"General-2\", \"General-3\", \"General-4\", \"(20)\", \"(21)Reverb Level\", \"(22)GateRev Level\", \"(23)Delay Level\", \"(24)P.Shift Level\", \"(25)\", \"(26)\", \"(27)\", \"(28)\", \"(29)\", \"(30)\", \"(31)\", \"Bank Select LSB\", \"(33)\", \"(34)\", \"(35)\", \"(36)\", \"(37)\", \"Data Entry LSB\", \"(39)\", \"(40)\", \"(41)Reverb Decay\", \"(42)GateRev Time\", \"(43)Delay Time\", \"(44)P.Shift Value\", \"(45)\", \"(46)\", \"(47)\", \"(48)\", \"(49)\", \"(50)\", \"(51)\", \"(52)\", \"(53)\", \"(54)\", \"(55)\", \"(56)\", \"(57)\", \"(58)\", \"(59)\", \"(60)\", \"(61)\", \"(62)\", \"(63)\", \"Hold-1\", \"Portamento\", \"Sostenuto\", \"Soft\", \"Legato Sw\", \"Hold-2\", \"(70)\", \"Resonance\", \"Release Time\", \"Attack Time\", \"Cut Off\", \"Decay Time\", \"Vibrato Rate\", \"Vibrato Depth\", \"Vibrato Delay\", \"(79)\", \"Genaral-5\", \"Genaral-6\", \"Genaral-7\", \"Genaral-8\", \"Portamento Ctrl\", \"(85)\", \"(86)\", \"(87)\", \"(88)\", \"(89)\", \"(90)\", \"Reverb\", \"Tremolo\", \"Chorus\", \"Celeste\", \"Phaser\", \"(96)\", \"(97)\", \"NRPN LSB\", \"NRPN MSB\", \"RPN LSB\", \"RPN MSB\", \"(102)\", \"(103)\", \"(104)\", \"(105)\", \"(106)\", \"(107)\", \"(108)\", \"(109)\", \"(110)\", \"(111)\", \"(112)\", \"(113)\", \"(114)\", \"(115)\", \"(116)\", \"(117)\", \"(118)\", \"(119)\", \"All Sound Off\", \"Reset All Ctrl\", \"(122)\", \"All Note Off\", \"Omni Off\", \"Omni On\", \"Mono\", \"Poly\"]"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 10938,
+      "offset": 10969,
       "length": 35,
       "value": "\"LMIDI.messageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11139,
+      "offset": 11170,
       "length": 43,
       "value": "\"LMIDI.systemExclusiveReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11324,
+      "offset": 11355,
       "length": 39,
       "value": "\"LMIDI.noteMessageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11486,
+      "offset": 11517,
       "length": 41,
       "value": "\"LMIDI.noteOnMessageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11651,
+      "offset": 11682,
       "length": 42,
       "value": "\"LMIDI.noteOffMessageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11846,
+      "offset": 11877,
       "length": 43,
       "value": "\"LMIDI.polyKeyPressureReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12030,
+      "offset": 12061,
       "length": 38,
       "value": "\"LMIDI.chPressureReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12207,
+      "offset": 12238,
       "length": 41,
       "value": "\"LMIDI.controlChangeReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12375,
+      "offset": 12406,
       "length": 37,
       "value": "\"LMIDI.pitchBendReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12552,
+      "offset": 12583,
       "length": 41,
       "value": "\"LMIDI.programChangeReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12736,
+      "offset": 12767,
       "length": 41,
       "value": "\"LMIDI.activeSensingReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12919,
+      "offset": 12950,
       "length": 25,
       "value": "\"LMIDI.receivedPacketKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13101,
+      "offset": 13132,
       "length": 20,
       "value": "\"LMIDI.timeStampKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13441,
+      "offset": 13472,
       "length": 47,
       "value": "\"LMIDI.systemExclusiveSnedCompleteNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13621,
+      "offset": 13652,
       "length": 37,
       "value": "\"LMIDI.notePreviewFinishNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13800,
+      "offset": 13831,
       "length": 30,
       "value": "\"LMIDI.notePreviewFinishChKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15638,
+      "offset": 15669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 15842,
+      "offset": 15873,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 17822,
+      "offset": 17853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 18408,
+      "offset": 18439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 18787,
+      "offset": 18818,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 19161,
+      "offset": 19192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 20027,
+      "offset": 20058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 55286,
+      "offset": 55317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 62416,
+      "offset": 62447,
       "length": 5,
       "value": "false"
     }

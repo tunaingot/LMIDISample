@@ -15,14 +15,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsAkxxOY3pySGJQR7MspjDX/h+A9Irm/Dfq5Z29dl4M=
+			is9Jt9aQcIS4vjZuLjzHbvZ7+T0VM5EZvqGKsBKuEuw=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEHFj24q5i+MKSfTma0EUIzGiwuSlPZT7lEWCypxNa0=
+			hecREqaFwNmVcnHUKtKIRoZSAUzXguPsn6KzDzvQ+io=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
@@ -36,7 +36,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JjZbUDvFuOkNj24sbYAlJkE65wNTMRKyqZRChIdrewk=
+			k4pWDDQ6WRi0jlGn/6rVERMyO4w/B6/0oPH2nCYdrlc=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.swiftinterface</key>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B1o68Ll7FqlD4e79XjEy9PTToXqcOBlmpiri4v3dl7c=
+			+7WKuHO5kFIZ4+2zzraiMuZGA/98bEmIxQ389shy/8g=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
