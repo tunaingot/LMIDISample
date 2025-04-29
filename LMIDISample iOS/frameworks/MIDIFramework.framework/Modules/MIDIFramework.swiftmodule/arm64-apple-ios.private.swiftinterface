@@ -1,0 +1,137 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios18.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MIDIFramework
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AVFoundation
+import CoreMIDI
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol LMIDIDelegate {
+  func messageReceived(receiveData: Foundation.Data, MIDITimeStamp: CoreMIDI.MIDITimeStamp)
+}
+public struct LMIDIEventSetting : Swift.Codable {
+  public var noteOff_8x: Swift.Bool
+  public var noteOn_9x: Swift.Bool
+  public var polyKeyPressure_Ax: Swift.Bool
+  public var controlChange_Bx: Swift.Bool
+  public var programChange_Cx: Swift.Bool
+  public var chPressure_Dx: Swift.Bool
+  public var pitchBend_Ex: Swift.Bool
+  public var systemExclusive_F0: Swift.Bool
+  public var timingClock_F8: Swift.Bool
+  public var reserve_F9: Swift.Bool
+  public var start_FA: Swift.Bool
+  public var continue_FB: Swift.Bool
+  public var stop_FC: Swift.Bool
+  public var reserve_FD: Swift.Bool
+  public var activeSensing_FE: Swift.Bool
+  public var systemReset_FF: Swift.Bool
+  public init(from decoder: any Swift.Decoder) throws
+  public func save(forKey: Swift.String)
+  public static func load(forKey: Swift.String) -> MIDIFramework.LMIDIEventSetting
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LMIDI : ObjectiveC.NSObject {
+  public static var connectionChangedNotification: Foundation.Notification.Name {
+    get
+  }
+  public static let messageReceivedNotification: Foundation.Notification.Name
+  public static let systemExclusiveReceivedNotification: Foundation.Notification.Name
+  public static let noteMessageReceivedNotification: Foundation.Notification.Name
+  public static let noteOnMessageReceivedNotification: Foundation.Notification.Name
+  public static let noteOffMessageReceivedNotification: Foundation.Notification.Name
+  public static let polyKeyPressureReceivedNotification: Foundation.Notification.Name
+  public static let chPressureReceivedNotification: Foundation.Notification.Name
+  public static let controlChangeReceivedNotification: Foundation.Notification.Name
+  public static let pitchBendReceivedNotification: Foundation.Notification.Name
+  public static let programChangeReceivedNotification: Foundation.Notification.Name
+  public static let activeSensingReceivedNotification: Foundation.Notification.Name
+  public static let receivedPacketKey: Swift.String
+  public static let timeStampKey: Swift.String
+  public static let systemExclusiveSnedCompleteNotification: Foundation.Notification.Name
+  public static let notePreviewFinishNotification: Foundation.Notification.Name
+  public static let notePreviewFinishChKey: Swift.String
+  public static var sourceNames: [Swift.String] {
+    get
+  }
+  public static var destinationNames: [Swift.String] {
+    get
+  }
+  public var sourceName: Swift.String {
+    get
+    set
+  }
+  public var destinationName: Swift.String {
+    get
+    set
+  }
+  public var isDisplayDebugMessage: Swift.Bool
+  public var delegate: (any MIDIFramework.LMIDIDelegate)?
+  public var isReceiveEnable: Swift.Bool
+  public init?(sourceName: Swift.String, destinationName: Swift.String)
+  public static func sourceExists(_ sourceName: Swift.String) -> Swift.Bool
+  public static func destinationExists(_ destinationName: Swift.String) -> Swift.Bool
+  public static func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
+  public func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
+  public func send(packet: Foundation.Data)
+  public func send(packetArray: [Foundation.Data])
+  public func send(sysex: Foundation.Data)
+  public func cancelSend()
+  @discardableResult
+  public func noteOn(ch: Swift.UInt8, noteNumber: Swift.UInt8, velocity: Swift.UInt8) -> Foundation.Data
+  @discardableResult
+  public func noteOn(ch: Swift.Int, noteNumber: Swift.Int, velocity: Swift.Int) -> Foundation.Data
+  @discardableResult
+  public func noteOff(ch: Swift.UInt8, noteNumber: Swift.UInt8, velocity: Swift.UInt8) -> Foundation.Data
+  @discardableResult
+  public func noteOff(ch: Swift.Int, noteNumber: Swift.Int, velocity: Swift.Int) -> Foundation.Data
+  @discardableResult
+  public func allNoteOff(ch: Swift.UInt8) -> Foundation.Data
+  @discardableResult
+  public func allNoteOff(ch: Swift.Int) -> Foundation.Data
+  @discardableResult
+  public func allNoteOff() -> [Foundation.Data]
+  @discardableResult
+  public func allSoundOff(ch: Swift.UInt8) -> Foundation.Data
+  @discardableResult
+  public func allSoundOff(ch: Swift.Int) -> Foundation.Data
+  @discardableResult
+  public func allSoundOff() -> [Foundation.Data]
+  @discardableResult
+  public func resetAllController(ch: Swift.UInt8) -> Foundation.Data
+  @discardableResult
+  public func resetAllController(ch: Swift.Int) -> Foundation.Data
+  @discardableResult
+  public func resetAllController() -> [Foundation.Data]
+  public static func noteNumber(noteName: Swift.String) -> Swift.UInt8?
+  public static func messageName(of packet: Foundation.Data) -> Swift.String?
+  public static func noteName(noteNumber: Swift.UInt8) -> Swift.String?
+  public static func noteName(noteNumber: Swift.Int) -> Swift.String?
+  public static func controlChangeName(CC: Swift.UInt8) -> Swift.String?
+  public static func controlChangeName(CC: Swift.Int) -> Swift.String?
+  public func notePreview(ch: Swift.UInt8)
+  public func notePreview(ch: Swift.Int)
+  public static func texted(packet: Foundation.Data) -> Swift.String
+  public static func ch(of packet: Foundation.Data) -> Swift.Int
+  public static func messageTexted(packet: Foundation.Data) -> Swift.String
+  public static func converted8bitValue(from7bitSMFSequence seq: Foundation.Data) -> Swift.UInt32
+  public static func converted7bitValue(from8bitData: Foundation.Data, isDeltatime: Swift.Bool) -> Swift.UInt32
+  public static func converted7bitValue(from8bit: Swift.UInt32, isDeltataime: Swift.Bool) -> Swift.UInt32
+  public static func converted7bitData(from8bit value: Swift.UInt32, isDeltataime: Swift.Bool = true) -> Foundation.Data
+  public static func eventLength(from7BitSMFSequence: Foundation.Data, startIndex: Swift.Int) -> (length: Swift.UInt32, size: Swift.Int, data: Foundation.Data)
+  public static func deltaTime(from7BitSMFSequence: Foundation.Data, startIndex: Swift.Int) -> (data: Foundation.Data, size: Swift.Int, value: Swift.UInt32)
+  public static func intervalTimeSecond(beatTime: Swift.Int, resolution: Swift.UInt16) -> Swift.Double
+  public static func intervalTimeNanosecond(beatTime: Swift.Int, resolution: Swift.UInt16) -> Swift.Int
+  public static func intervalTimeMillisecond(beatTime: Swift.Int, resolution: Swift.UInt16) -> Swift.Int
+  public static func intervalTimeNanosecondAt120(resolution: Swift.UInt16) -> Swift.Int
+  public static func intervalTimemMillisecondAt120(resolution: Swift.UInt16) -> Swift.Int
+  public static func tempo(beatTime: Swift.Int, resolution: Swift.UInt16) -> Swift.Double
+  public static func beatTime(setTempoEvent: Foundation.Data) -> Swift.Int
+  public static func isBlackKey(noteNumber: Swift.Int) -> Swift.Bool
+  public static func isWhiteKey(noteNumber: Swift.Int) -> Swift.Bool
+  public static func recommendDevice() -> MIDIFramework.LMIDI?
+  @objc deinit
+}
