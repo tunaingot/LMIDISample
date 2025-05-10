@@ -3173,6 +3173,41 @@
           },
           {
             "kind": "Function",
+            "name": "deviceExists",
+            "printedName": "deviceExists(sourceName:destinationName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC12deviceExists10sourceName011destinationF0SbSS_SStFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC12deviceExists10sourceName011destinationF0SbSS_SStFZ",
+            "moduleName": "MIDIFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "send",
             "printedName": "send(packet:timeStamp:)",
             "children": [
@@ -4145,8 +4180,8 @@
           },
           {
             "kind": "Function",
-            "name": "converted8bitValue",
-            "printedName": "converted8bitValue(from7bitSMFSequence:)",
+            "name": "convertedUInt32Value",
+            "printedName": "convertedUInt32Value(from7bitSMFSequence:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4162,8 +4197,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MIDIFramework5LMIDIC18converted8bitValue19from7bitSMFSequences6UInt32V10Foundation4DataV_tFZ",
-            "mangledName": "$s13MIDIFramework5LMIDIC18converted8bitValue19from7bitSMFSequences6UInt32V10Foundation4DataV_tFZ",
+            "usr": "s:13MIDIFramework5LMIDIC20convertedUInt32Value19from7bitSMFSequences0D0V10Foundation4DataV_tFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC20convertedUInt32Value19from7bitSMFSequences0D0V10Foundation4DataV_tFZ",
             "moduleName": "MIDIFramework",
             "static": true,
             "declAttributes": [
@@ -4176,43 +4211,7 @@
           {
             "kind": "Function",
             "name": "converted7bitValue",
-            "printedName": "converted7bitValue(from8bitData:isDeltatime:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MIDIFramework5LMIDIC18converted7bitValue12from8bitData11isDeltatimes6UInt32V10Foundation0F0V_SbtFZ",
-            "mangledName": "$s13MIDIFramework5LMIDIC18converted7bitValue12from8bitData11isDeltatimes6UInt32V10Foundation0F0V_SbtFZ",
-            "moduleName": "MIDIFramework",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "converted7bitValue",
-            "printedName": "converted7bitValue(from8bit:isDeltataime:)",
+            "printedName": "converted7bitValue(fromUInt32:isVariableLength:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4234,8 +4233,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MIDIFramework5LMIDIC18converted7bitValue8from8bit12isDeltataimes6UInt32VAH_SbtFZ",
-            "mangledName": "$s13MIDIFramework5LMIDIC18converted7bitValue8from8bit12isDeltataimes6UInt32VAH_SbtFZ",
+            "usr": "s:13MIDIFramework5LMIDIC18converted7bitValue10fromUInt3216isVariableLengths0F0VAH_SbtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC18converted7bitValue10fromUInt3216isVariableLengths0F0VAH_SbtFZ",
             "moduleName": "MIDIFramework",
             "static": true,
             "declAttributes": [
@@ -4248,7 +4247,7 @@
           {
             "kind": "Function",
             "name": "converted7bitData",
-            "printedName": "converted7bitData(from8bit:isDeltataime:)",
+            "printedName": "converted7bitData(fromUInt32:isVariableLength:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4266,13 +4265,12 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MIDIFramework5LMIDIC17converted7bitData8from8bit12isDeltataime10Foundation0D0Vs6UInt32V_SbtFZ",
-            "mangledName": "$s13MIDIFramework5LMIDIC17converted7bitData8from8bit12isDeltataime10Foundation0D0Vs6UInt32V_SbtFZ",
+            "usr": "s:13MIDIFramework5LMIDIC17converted7bitData10fromUInt3216isVariableLength10Foundation0D0Vs0F0V_SbtFZ",
+            "mangledName": "$s13MIDIFramework5LMIDIC17converted7bitData10fromUInt3216isVariableLength10Foundation0D0Vs0F0V_SbtFZ",
             "moduleName": "MIDIFramework",
             "static": true,
             "declAttributes": [
@@ -5154,14 +5152,7 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 55317,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 62447,
+      "offset": 62412,
       "length": 5,
       "value": "false"
     }

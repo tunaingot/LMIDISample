@@ -74,6 +74,7 @@ public struct LMIDIEventSetting : Swift.Codable {
   public init?(sourceName: Swift.String, destinationName: Swift.String)
   public static func sourceExists(_ sourceName: Swift.String) -> Swift.Bool
   public static func destinationExists(_ destinationName: Swift.String) -> Swift.Bool
+  public static func deviceExists(sourceName: Swift.String, destinationName: Swift.String) -> Swift.Bool
   public static func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data)
@@ -117,10 +118,9 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func texted(packet: Foundation.Data) -> Swift.String
   public static func ch(of packet: Foundation.Data) -> Swift.Int
   public static func messageTexted(packet: Foundation.Data) -> Swift.String
-  public static func converted8bitValue(from7bitSMFSequence seq: Foundation.Data) -> Swift.UInt32
-  public static func converted7bitValue(from8bitData: Foundation.Data, isDeltatime: Swift.Bool) -> Swift.UInt32
-  public static func converted7bitValue(from8bit: Swift.UInt32, isDeltataime: Swift.Bool) -> Swift.UInt32
-  public static func converted7bitData(from8bit value: Swift.UInt32, isDeltataime: Swift.Bool = true) -> Foundation.Data
+  public static func convertedUInt32Value(from7bitSMFSequence seq: Foundation.Data) -> Swift.UInt32
+  public static func converted7bitValue(fromUInt32: Swift.UInt32, isVariableLength: Swift.Bool) -> Swift.UInt32
+  public static func converted7bitData(fromUInt32 value: Swift.UInt32, isVariableLength: Swift.Bool) -> Foundation.Data
   public static func eventLength(from7BitSMFSequence: Foundation.Data, startIndex: Swift.Int) -> (length: Swift.UInt32, size: Swift.Int, data: Foundation.Data)
   public static func deltaTime(from7BitSMFSequence: Foundation.Data, startIndex: Swift.Int) -> (data: Foundation.Data, size: Swift.Int, value: Swift.UInt32)
   public static func intervalTimeSecond(beatTime: Swift.Int, resolution: Swift.UInt16) -> Swift.Double
