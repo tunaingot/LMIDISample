@@ -135,3 +135,8 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func recommendDevice() -> MIDIFramework.LMIDI?
   @objc deinit
 }
+extension Swift.Double {
+  public var MIDITimeStamp: CoreMIDI.MIDITimeStamp {
+    get
+  }
+}

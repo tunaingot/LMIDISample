@@ -10,15 +10,15 @@
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		0cFnlyC1eKsiekIS5QvPM2gLK9g=
+		hPrCQOCyc7aCG8HZ5TKuwCcyiEw=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TEW8yd2HHg9CFDi/U0Fr71UHbio=
+		ze3+jkyWK5JRMOlV80VceFBB418=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EAKWDgsNOcV603D9qH6UY4nZDz0=
+		zMZExG4s1ekAzOjHvnEdljUWuZ8=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EAKWDgsNOcV603D9qH6UY4nZDz0=
+		zMZExG4s1ekAzOjHvnEdljUWuZ8=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VDYBB4uKAHdxWWI2vNMd1H8oMPo=
+		aMgf9zqhwk7My+xYsZDkH3j6wZs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,21 +39,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bMUx84yGkDWhaSpPcPqHGEoScnO8fhKvTf0FpnQME/A=
+			nrdm/yDHiGDaiNyvOjkcexGwXK6hi3Auss52tIpvv0Y=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rs8KgtCZ4bJlFeRNPWxYUFjmi0WkCjDt7Hzxf2dbxf8=
+			Sz+eLuGQl4f+u0U665nzPXBwB8oTrmSFBSg1kKIZ4Y8=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnDw507dgEMfsi3j1wrMugfND6Frza1XWl+UY/GUZRU=
+			dx7S+183o9VNB4Z+JRPhpfVfw/ypMgqYeaCrIDH1DK0=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnDw507dgEMfsi3j1wrMugfND6Frza1XWl+UY/GUZRU=
+			dx7S+183o9VNB4Z+JRPhpfVfw/ypMgqYeaCrIDH1DK0=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CFtxz/s0+jPSxfo4HDLGToivSnk9qjFacCkuTrVJ/QM=
+			+lVqhAKcwFcvkR0IekFxo2V8KJrFEW9Gjo/feEOTgGs=
 			</data>
 		</dict>
 	</dict>

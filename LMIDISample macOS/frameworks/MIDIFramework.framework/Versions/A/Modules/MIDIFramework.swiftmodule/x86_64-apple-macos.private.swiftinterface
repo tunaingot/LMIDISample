@@ -134,3 +134,8 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func isWhiteKey(noteNumber: Swift.Int) -> Swift.Bool
   @objc deinit
 }
+extension Swift.Double {
+  public var MIDITimeStamp: CoreMIDI.MIDITimeStamp {
+    get
+  }
+}

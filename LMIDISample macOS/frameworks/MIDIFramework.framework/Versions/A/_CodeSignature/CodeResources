@@ -15,28 +15,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e29BTkAfthRTOGL9ojbH+evWApdYzQn+uvcPIoqfUuE=
+			jnPugJVsZ3RBUpQfGlf0mmq+S9gJRIKVR8ywYYh2SfE=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jou/r5jTS50RPWYI4tf25Ag+axv5LzZe15DN4G/9OSo=
+			Tdf9X81dQhbxlkRdJBDrOCv/EsE3ORgae98Tzfv5xbE=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mebR9/wLMIGyO16VM2vEXNSKju0jW4QgrrQuih6lIFU=
+			BHYSwOdEBc5gm6SwzKqxAFBbuH78Q3lG4U2+DNXhSpY=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Y5PuDj/gq+0kOSg1B2HglSzG8ll5/Db1lF2vRKCIsY=
+			fm6WnGiH2L7n7/e73H8+wUOWCTG+50P6TQ9TbvZ7HUo=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -50,28 +50,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Y5PuDj/gq+0kOSg1B2HglSzG8ll5/Db1lF2vRKCIsY=
+			fm6WnGiH2L7n7/e73H8+wUOWCTG+50P6TQ9TbvZ7HUo=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ap33GwmWRFvG8upvb1AsVCp0pH5TveT6yY7ZnOWvFNQ=
+			9eWwspqGOpdCQ7k600mA3Q4m5aV7PppuiSGh/CJgckU=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mebR9/wLMIGyO16VM2vEXNSKju0jW4QgrrQuih6lIFU=
+			BHYSwOdEBc5gm6SwzKqxAFBbuH78Q3lG4U2+DNXhSpY=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5nIrnBTRL6v2bFQQq8u4aGT/wkm++H4MKI7SrcWkG14=
+			Kqqo+U1UPNcEr0a+SbdqONIM3pZGNtfQuQDi9BW+gJY=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5nIrnBTRL6v2bFQQq8u4aGT/wkm++H4MKI7SrcWkG14=
+			Kqqo+U1UPNcEr0a+SbdqONIM3pZGNtfQuQDi9BW+gJY=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2P16JYwrrJaho66uYVlelTnVTCeiDFi/nxQKQ/mI4c=
+			T9X1hPldAzP/B8IJzPFXc6NtoIQ82fWKYMUGrjanEoo=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
