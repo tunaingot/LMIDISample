@@ -2344,58 +2344,6 @@
           },
           {
             "kind": "Var",
-            "name": "systemExclusiveSnedCompleteNotification",
-            "printedName": "systemExclusiveSnedCompleteNotification",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Name",
-                "printedName": "Foundation.NSNotification.Name",
-                "usr": "c:@T@NSNotificationName"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavpZ",
-            "mangledName": "$s13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavpZ",
-            "moduleName": "MIDIFramework",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Name",
-                    "printedName": "Foundation.NSNotification.Name",
-                    "usr": "c:@T@NSNotificationName"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavgZ",
-                "mangledName": "$s13MIDIFramework5LMIDIC39systemExclusiveSnedCompleteNotificationSo18NSNotificationNameavgZ",
-                "moduleName": "MIDIFramework",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "notePreviewFinishNotification",
             "printedName": "notePreviewFinishNotification",
             "children": [
@@ -2631,14 +2579,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvp",
-            "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvp",
+            "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSSgvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSSgvp",
             "moduleName": "MIDIFramework",
             "declAttributes": [
               "AccessControl"
@@ -2651,14 +2607,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvg",
-                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvg",
+                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSSgvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSSgvg",
                 "moduleName": "MIDIFramework",
                 "accessorKind": "get"
               },
@@ -2674,14 +2638,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvs",
-                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvs",
+                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSSgvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSSgvs",
                 "moduleName": "MIDIFramework",
                 "accessorKind": "set"
               },
@@ -2697,8 +2669,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSvM",
-                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSvM",
+                "usr": "s:13MIDIFramework5LMIDIC10sourceNameSSSgvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC10sourceNameSSSgvM",
                 "moduleName": "MIDIFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2712,14 +2684,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvp",
-            "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvp",
+            "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSSgvp",
+            "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSSgvp",
             "moduleName": "MIDIFramework",
             "declAttributes": [
               "AccessControl"
@@ -2732,14 +2712,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvg",
-                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvg",
+                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSSgvg",
+                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSSgvg",
                 "moduleName": "MIDIFramework",
                 "accessorKind": "get"
               },
@@ -2755,14 +2743,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvs",
-                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvs",
+                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSSgvs",
+                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSSgvs",
                 "moduleName": "MIDIFramework",
                 "accessorKind": "set"
               },
@@ -2778,8 +2774,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSvM",
-                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSvM",
+                "usr": "s:13MIDIFramework5LMIDIC15destinationNameSSSgvM",
+                "mangledName": "$s13MIDIFramework5LMIDIC15destinationNameSSSgvM",
                 "moduleName": "MIDIFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2984,91 +2980,34 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "isReceiveEnable",
-            "printedName": "isReceiveEnable",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "MIDIFramework.LMIDI?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LMIDI",
+                    "printedName": "MIDIFramework.LMIDI",
+                    "usr": "s:13MIDIFramework5LMIDIC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvp",
-            "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvp",
+            "declKind": "Constructor",
+            "usr": "s:13MIDIFramework5LMIDICACSgycfc",
+            "mangledName": "$s13MIDIFramework5LMIDICACSgycfc",
             "moduleName": "MIDIFramework",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvg",
-                "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvg",
-                "moduleName": "MIDIFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvs",
-                "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvs",
-                "moduleName": "MIDIFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MIDIFramework5LMIDIC15isReceiveEnableSbvM",
-                "mangledName": "$s13MIDIFramework5LMIDIC15isReceiveEnableSbvM",
-                "moduleName": "MIDIFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -3084,27 +3023,43 @@
                     "kind": "TypeNominal",
                     "name": "LMIDI",
                     "printedName": "MIDIFramework.LMIDI",
-                    "usr": "c:@M@MIDIFramework@objc(cs)LMIDI"
+                    "usr": "s:13MIDIFramework5LMIDIC"
                   }
                 ],
                 "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13MIDIFramework5LMIDIC10sourceName011destinationD0ACSgSS_SStcfc",
-            "mangledName": "$s13MIDIFramework5LMIDIC10sourceName011destinationD0ACSgSS_SStcfc",
+            "usr": "s:13MIDIFramework5LMIDIC10sourceName011destinationD0ACSgSSSg_AGtcfc",
+            "mangledName": "$s13MIDIFramework5LMIDIC10sourceName011destinationD0ACSgSSSg_AGtcfc",
             "moduleName": "MIDIFramework",
             "declAttributes": [
               "AccessControl",
@@ -3163,41 +3118,6 @@
             "declKind": "Func",
             "usr": "s:13MIDIFramework5LMIDIC17destinationExistsySbSSFZ",
             "mangledName": "$s13MIDIFramework5LMIDIC17destinationExistsySbSSFZ",
-            "moduleName": "MIDIFramework",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deviceExists",
-            "printedName": "deviceExists(sourceName:destinationName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MIDIFramework5LMIDIC12deviceExists10sourceName011destinationF0SbSS_SStFZ",
-            "mangledName": "$s13MIDIFramework5LMIDIC12deviceExists10sourceName011destinationF0SbSS_SStFZ",
             "moduleName": "MIDIFramework",
             "static": true,
             "declAttributes": [
@@ -3328,33 +3248,6 @@
             "declKind": "Func",
             "usr": "s:13MIDIFramework5LMIDIC4send11packetArrayySay10Foundation4DataVG_tF",
             "mangledName": "$s13MIDIFramework5LMIDIC4send11packetArrayySay10Foundation4DataVG_tF",
-            "moduleName": "MIDIFramework",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "send",
-            "printedName": "send(sysex:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MIDIFramework5LMIDIC4send5sysexy10Foundation4DataV_tF",
-            "mangledName": "$s13MIDIFramework5LMIDIC4send5sysexy10Foundation4DataV_tF",
             "moduleName": "MIDIFramework",
             "declAttributes": [
               "AccessControl",
@@ -4681,19 +4574,12 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@MIDIFramework@objc(cs)LMIDI",
+        "usr": "s:13MIDIFramework5LMIDIC",
         "mangledName": "$s13MIDIFramework5LMIDIC",
         "moduleName": "MIDIFramework",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -4709,55 +4595,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -4769,515 +4606,6 @@
         "moduleName": "MIDIFramework",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Double",
-        "printedName": "Double",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "MIDITimeStamp",
-            "printedName": "MIDITimeStamp",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:Sd13MIDIFrameworkE13MIDITimeStamps6UInt64Vvp",
-            "mangledName": "$sSd13MIDIFrameworkE13MIDITimeStamps6UInt64Vvp",
-            "moduleName": "MIDIFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:Sd13MIDIFrameworkE13MIDITimeStamps6UInt64Vvg",
-                "mangledName": "$sSd13MIDIFrameworkE13MIDITimeStamps6UInt64Vvg",
-                "moduleName": "MIDIFramework",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:Sd",
-        "mangledName": "$sSd",
-        "moduleName": "Swift",
-        "declAttributes": [
-          "Frozen"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgPassedAsDouble",
-            "printedName": "_CVarArgPassedAsDouble",
-            "usr": "s:s22_CVarArgPassedAsDoubleP",
-            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CVarArgAligned",
-            "printedName": "_CVarArgAligned",
-            "usr": "s:s15_CVarArgAlignedP",
-            "mangledName": "$ss15_CVarArgAlignedP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BinaryFloatingPoint",
-            "printedName": "BinaryFloatingPoint",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawSignificand",
-                "printedName": "RawSignificand",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "RawExponent",
-                "printedName": "RawExponent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt",
-                    "printedName": "Swift.UInt",
-                    "usr": "s:Su"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SB",
-            "mangledName": "$sSB"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByFloatLiteral",
-            "printedName": "ExpressibleByFloatLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "FloatLiteralType",
-                "printedName": "FloatLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s25ExpressibleByFloatLiteralP",
-            "mangledName": "$ss25ExpressibleByFloatLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "FloatingPoint",
-            "printedName": "FloatingPoint",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Exponent",
-                "printedName": "Exponent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SF",
-            "mangledName": "$sSF"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SignedNumeric",
-            "printedName": "SignedNumeric",
-            "usr": "s:s13SignedNumericP",
-            "mangledName": "$ss13SignedNumericP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Numeric",
-            "printedName": "Numeric",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Magnitude",
-                "printedName": "Magnitude",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sj",
-            "mangledName": "$sSj"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdditiveArithmetic",
-            "printedName": "AdditiveArithmetic",
-            "usr": "s:s18AdditiveArithmeticP",
-            "mangledName": "$ss18AdditiveArithmeticP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinIntegerLiteral",
-            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
-            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
-            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByIntegerLiteral",
-            "printedName": "ExpressibleByIntegerLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "IntegerLiteralType",
-                "printedName": "IntegerLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s27ExpressibleByIntegerLiteralP",
-            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinFloatLiteral",
-            "printedName": "_ExpressibleByBuiltinFloatLiteral",
-            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
-            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Strideable",
-            "printedName": "Strideable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Stride",
-                "printedName": "Stride",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sx",
-            "mangledName": "$sSx"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SIMDScalar",
-            "printedName": "SIMDScalar",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SIMDMaskScalar",
-                "printedName": "SIMDMaskScalar",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SIMD2Storage",
-                "printedName": "SIMD2Storage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2Storage",
-                    "printedName": "Swift.Double.SIMD2Storage",
-                    "usr": "s:Sd12SIMD2StorageV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SIMD4Storage",
-                "printedName": "SIMD4Storage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD4Storage",
-                    "printedName": "Swift.Double.SIMD4Storage",
-                    "usr": "s:Sd12SIMD4StorageV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SIMD8Storage",
-                "printedName": "SIMD8Storage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD8Storage",
-                    "printedName": "Swift.Double.SIMD8Storage",
-                    "usr": "s:Sd12SIMD8StorageV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SIMD16Storage",
-                "printedName": "SIMD16Storage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD16Storage",
-                    "printedName": "Swift.Double.SIMD16Storage",
-                    "usr": "s:Sd13SIMD16StorageV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SIMD32Storage",
-                "printedName": "SIMD32Storage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD32Storage",
-                    "printedName": "Swift.Double.SIMD32Storage",
-                    "usr": "s:Sd13SIMD32StorageV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SIMD64Storage",
-                "printedName": "SIMD64Storage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD64Storage",
-                    "printedName": "Swift.Double.SIMD64Storage",
-                    "usr": "s:Sd13SIMD64StorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s10SIMDScalarP",
-            "mangledName": "$ss10SIMDScalarP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_FormatSpecifiable",
-            "printedName": "_FormatSpecifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_Arg",
-                "printedName": "_Arg",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation18_FormatSpecifiableP",
-            "mangledName": "$s10Foundation18_FormatSpecifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          }
         ]
       }
     ],
@@ -5399,259 +4727,259 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "FloatLiteral",
-      "offset": 4405,
+      "offset": 4428,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "FloatLiteral",
-      "offset": 4457,
+      "offset": 4480,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "FloatLiteral",
-      "offset": 4508,
+      "offset": 4531,
       "length": 4,
       "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 4575,
+      "length": 20,
+      "value": "\"Source Device Name\""
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "StringLiteral",
+      "offset": 4640,
+      "length": 25,
+      "value": "\"Destination Device Name\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "Array",
-      "offset": 4615,
+      "offset": 4768,
       "length": 65,
       "value": "[\"C\", \"C#\", \"D\", \"D#\", \"E\", \"F\", \"F#\", \"G\", \"G#\", \"A\", \"A#\", \"B\"]"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4709,
+      "offset": 4862,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4733,
+      "offset": 4886,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4802,
+      "offset": 4955,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4808,
+      "offset": 4961,
       "length": 3,
       "value": "128"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 4856,
+      "offset": 5009,
       "length": 6,
       "value": "\"%@%d\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 4972,
+      "offset": 5125,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 5055,
+      "offset": 5208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 5085,
+      "offset": 5238,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "Array",
-      "offset": 5196,
+      "offset": 5349,
       "length": 5197,
       "value": "[\"Bank Select MSB\", \"Modulation\", \"Breath\", \"(3)\", \"Foot Type\", \"Portamento Time\", \"Data Entry MSB\", \"Volume\", \"Balance\", \"(9)\", \"Pan Pot\", \"Expression\", \"(12)\", \"(13)\", \"(14)\", \"(15)\", \"General-1\", \"General-2\", \"General-3\", \"General-4\", \"(20)\", \"(21)Reverb Level\", \"(22)GateRev Level\", \"(23)Delay Level\", \"(24)P.Shift Level\", \"(25)\", \"(26)\", \"(27)\", \"(28)\", \"(29)\", \"(30)\", \"(31)\", \"Bank Select LSB\", \"(33)\", \"(34)\", \"(35)\", \"(36)\", \"(37)\", \"Data Entry LSB\", \"(39)\", \"(40)\", \"(41)Reverb Decay\", \"(42)GateRev Time\", \"(43)Delay Time\", \"(44)P.Shift Value\", \"(45)\", \"(46)\", \"(47)\", \"(48)\", \"(49)\", \"(50)\", \"(51)\", \"(52)\", \"(53)\", \"(54)\", \"(55)\", \"(56)\", \"(57)\", \"(58)\", \"(59)\", \"(60)\", \"(61)\", \"(62)\", \"(63)\", \"Hold-1\", \"Portamento\", \"Sostenuto\", \"Soft\", \"Legato Sw\", \"Hold-2\", \"(70)\", \"Resonance\", \"Release Time\", \"Attack Time\", \"Cut Off\", \"Decay Time\", \"Vibrato Rate\", \"Vibrato Depth\", \"Vibrato Delay\", \"(79)\", \"Genaral-5\", \"Genaral-6\", \"Genaral-7\", \"Genaral-8\", \"Portamento Ctrl\", \"(85)\", \"(86)\", \"(87)\", \"(88)\", \"(89)\", \"(90)\", \"Reverb\", \"Tremolo\", \"Chorus\", \"Celeste\", \"Phaser\", \"(96)\", \"(97)\", \"NRPN LSB\", \"NRPN MSB\", \"RPN LSB\", \"RPN MSB\", \"(102)\", \"(103)\", \"(104)\", \"(105)\", \"(106)\", \"(107)\", \"(108)\", \"(109)\", \"(110)\", \"(111)\", \"(112)\", \"(113)\", \"(114)\", \"(115)\", \"(116)\", \"(117)\", \"(118)\", \"(119)\", \"All Sound Off\", \"Reset All Ctrl\", \"(122)\", \"All Note Off\", \"Omni Off\", \"Omni On\", \"Mono\", \"Poly\"]"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11127,
+      "offset": 11280,
       "length": 35,
       "value": "\"LMIDI.messageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11328,
+      "offset": 11481,
       "length": 43,
       "value": "\"LMIDI.systemExclusiveReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11513,
+      "offset": 11666,
       "length": 39,
       "value": "\"LMIDI.noteMessageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11675,
+      "offset": 11828,
       "length": 41,
       "value": "\"LMIDI.noteOnMessageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 11840,
+      "offset": 11993,
       "length": 42,
       "value": "\"LMIDI.noteOffMessageReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12035,
+      "offset": 12188,
       "length": 43,
       "value": "\"LMIDI.polyKeyPressureReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12219,
+      "offset": 12372,
       "length": 38,
       "value": "\"LMIDI.chPressureReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12396,
+      "offset": 12549,
       "length": 41,
       "value": "\"LMIDI.controlChangeReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12564,
+      "offset": 12717,
       "length": 37,
       "value": "\"LMIDI.pitchBendReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12741,
+      "offset": 12894,
       "length": 41,
       "value": "\"LMIDI.programChangeReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 12925,
+      "offset": 13078,
       "length": 41,
       "value": "\"LMIDI.activeSensingReceivedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13108,
+      "offset": 13261,
       "length": 25,
       "value": "\"LMIDI.receivedPacketKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13290,
+      "offset": 13443,
       "length": 20,
       "value": "\"LMIDI.timeStampKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13630,
+      "offset": 13784,
       "length": 47,
       "value": "\"LMIDI.systemExclusiveSnedCompleteNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13810,
+      "offset": 13964,
       "length": 37,
       "value": "\"LMIDI.notePreviewFinishNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "StringLiteral",
-      "offset": 13989,
+      "offset": 14143,
       "length": 30,
       "value": "\"LMIDI.notePreviewFinishChKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15827,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
-      "kind": "StringLiteral",
-      "offset": 16031,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
-      "kind": "StringLiteral",
-      "offset": 18011,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18597,
+      "offset": 15981,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 18976,
+      "offset": 19038,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19417,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 19350,
+      "offset": 19791,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 20216,
+      "offset": 20656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 63224,
+      "offset": 65210,
       "length": 5,
       "value": "false"
     }

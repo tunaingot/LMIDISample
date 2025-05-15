@@ -34,7 +34,7 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func load(forKey: Swift.String) -> MIDIFramework.LMIDIEventSetting
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LMIDI : ObjectiveC.NSObject {
+public class LMIDI {
   public static var connectionChangedNotification: Foundation.Notification.Name {
     get
   }
@@ -51,7 +51,6 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static let activeSensingReceivedNotification: Foundation.Notification.Name
   public static let receivedPacketKey: Swift.String
   public static let timeStampKey: Swift.String
-  public static let systemExclusiveSnedCompleteNotification: Foundation.Notification.Name
   public static let notePreviewFinishNotification: Foundation.Notification.Name
   public static let notePreviewFinishChKey: Swift.String
   public static var sourceNames: [Swift.String] {
@@ -60,26 +59,24 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static var destinationNames: [Swift.String] {
     get
   }
-  public var sourceName: Swift.String {
+  public var sourceName: Swift.String? {
     get
     set
   }
-  public var destinationName: Swift.String {
+  public var destinationName: Swift.String? {
     get
     set
   }
   public var isDisplayDebugMessage: Swift.Bool
   public var delegate: (any MIDIFramework.LMIDIDelegate)?
-  public var isReceiveEnable: Swift.Bool
-  public init?(sourceName: Swift.String, destinationName: Swift.String)
+  public init?()
+  public init?(sourceName: Swift.String?, destinationName: Swift.String?)
   public static func sourceExists(_ sourceName: Swift.String) -> Swift.Bool
   public static func destinationExists(_ destinationName: Swift.String) -> Swift.Bool
-  public static func deviceExists(sourceName: Swift.String, destinationName: Swift.String) -> Swift.Bool
   public static func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data)
   public func send(packetArray: [Foundation.Data])
-  public func send(sysex: Foundation.Data)
   public func cancelSend()
   @discardableResult
   public func noteOn(ch: Swift.UInt8, noteNumber: Swift.UInt8, velocity: Swift.UInt8) -> Foundation.Data
@@ -133,9 +130,4 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func isBlackKey(noteNumber: Swift.Int) -> Swift.Bool
   public static func isWhiteKey(noteNumber: Swift.Int) -> Swift.Bool
   @objc deinit
-}
-extension Swift.Double {
-  public var MIDITimeStamp: CoreMIDI.MIDITimeStamp {
-    get
-  }
 }
