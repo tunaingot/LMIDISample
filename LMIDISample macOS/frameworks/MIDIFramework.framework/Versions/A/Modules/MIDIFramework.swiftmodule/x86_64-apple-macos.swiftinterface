@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-macos15.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MIDIFramework
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AVFoundation
 import CoreMIDI
 import Foundation
@@ -73,6 +73,8 @@ public class LMIDI {
   public init?(sourceName: Swift.String?, destinationName: Swift.String?)
   public static func sourceExists(_ sourceName: Swift.String) -> Swift.Bool
   public static func destinationExists(_ destinationName: Swift.String) -> Swift.Bool
+  public func deviceAdded(_ device: IOKit.io_object_t)
+  public func deviceRemoved(_ device: IOKit.io_object_t)
   public static func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data)

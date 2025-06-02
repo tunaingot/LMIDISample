@@ -3128,6 +3128,59 @@
           },
           {
             "kind": "Function",
+            "name": "deviceAdded",
+            "printedName": "deviceAdded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC11deviceAddedyys6UInt32VF",
+            "mangledName": "$s13MIDIFramework5LMIDIC11deviceAddedyys6UInt32VF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceRemoved",
+            "printedName": "deviceRemoved(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MIDIFramework5LMIDIC13deviceRemovedyys6UInt32VF",
+            "mangledName": "$s13MIDIFramework5LMIDIC13deviceRemovedyys6UInt32VF",
+            "moduleName": "MIDIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "send",
             "printedName": "send(packet:timeStamp:)",
             "children": [
@@ -4944,42 +4997,42 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15981,
+      "offset": 16723,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 19038,
+      "offset": 19780,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "IntegerLiteral",
-      "offset": 19417,
+      "offset": 20159,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 19791,
+      "offset": 20533,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 20656,
+      "offset": 21398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 65210,
+      "offset": 66471,
       "length": 5,
       "value": "false"
     }

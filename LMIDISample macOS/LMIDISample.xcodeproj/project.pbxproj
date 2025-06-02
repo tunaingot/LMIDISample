@@ -24,7 +24,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		688B1A7B2DD697BE0064D503 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LMIDISample" target */ = {
+		68588C482DED576C00015219 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LMIDISample" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				MIDIFramework.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
@@ -45,7 +45,7 @@
 		68965DFC2DBEE6F200F8F300 /* frameworks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				688B1A7B2DD697BE0064D503 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LMIDISample" target */,
+				68588C482DED576C00015219 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LMIDISample" target */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";

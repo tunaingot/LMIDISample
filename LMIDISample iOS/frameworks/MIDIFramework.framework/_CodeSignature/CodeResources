@@ -6,31 +6,31 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		Hof9fryciCbT9PONJhuFq+bRPso=
+		xy0yDC7Pnnb4+Yuvf4VgRzXII/s=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		rfJUYCGwiH8IjtE9jd1hYDD/ots=
+		/MoZOF8nLN+/DmjGVYyc49heE6w=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		j5AbWQBEXriM0zIWrLsqZXKFFlc=
+		hBl2vvf0z2JL48OtHECaEWua0KE=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		R7vlgZcT9BsxP3UoJSwBLl6cuWQ=
+		3YmxkkBOuu1sL4tpa3pcCf9kl6k=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		a7A1oBTbLuqmgxMuEkWTBPG5o0U=
+		KKh/1TNLBl5Avb1AhHHf+oaaZmA=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		R7vlgZcT9BsxP3UoJSwBLl6cuWQ=
+		3YmxkkBOuu1sL4tpa3pcCf9kl6k=
 		</data>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EAlDoiOCYHlM6AqTbbzq/AofO4E=
+		XW5GDRq69W8jrbHs+QZDqj7sNsg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,42 +39,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HRlyZK5JA6RXjB2uuWrd0MtAXgeNVkJE+OO1vvL1YI=
+			1AuIVg7Kns0mQYKIrWRr83WItslnKZ83CprIqjxEQaI=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mqh5paYCemj//amRudT2R1yyuDNcmoHpmIMzDFYLKTk=
+			Xuf5J1ccHZ2727S7+2U6Cna3a5BQzUeBB+ZJ67Bn+uw=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ZrjFP6LVkMqZ0Zue6N4kmM6/QQydZv4CTV0+OdKejQ=
+			7pz3QG1/IMMr6eQY0zpcDawLewHOC+PJORIiTJoXVyg=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D9rfrLYWg/LVNdEzyCWzFKzMXQRhw3U63eFUuq4vbDU=
+			/RTBXiWtq+RPnlhDEnJayj63g5JEKHf8VymyGXjiW7Q=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ZrjFP6LVkMqZ0Zue6N4kmM6/QQydZv4CTV0+OdKejQ=
+			7pz3QG1/IMMr6eQY0zpcDawLewHOC+PJORIiTJoXVyg=
 			</data>
 		</dict>
 		<key>Modules/MIDIFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MfXoeAgMaEfjyA370T6+boa0VsUtSiAEkgyh3Ovt+c8=
+			6THwqTAQ69rbx5vMr02iQtcB9nNx8kw1jhvjh4fdeYs=
 			</data>
 		</dict>
 	</dict>
