@@ -35,7 +35,7 @@ class ViewController: NSViewController {
                                                    object: midiDevice)
             NotificationCenter.default.addObserver(self,
                                                    selector: #selector(controlChangeReceived(_:)),  //コントロールチェンジ受信通知を受け取る
-                                                   name: LMIDI.controlChangeReceivedNotification,
+                                                   name: LMIDI.controlChange_Bx_ReceivedNotification,
                                                    object: midiDevice)
         }
     }

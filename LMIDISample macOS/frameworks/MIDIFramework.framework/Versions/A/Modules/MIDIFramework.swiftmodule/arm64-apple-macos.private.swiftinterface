@@ -20,7 +20,14 @@ public struct LMIDIEventSetting : Swift.Codable {
   public var programChange_Cx: Swift.Bool
   public var chPressure_Dx: Swift.Bool
   public var pitchBend_Ex: Swift.Bool
-  public var systemExclusive_F0: Swift.Bool
+  public var startOfSystemExclusive_F0: Swift.Bool
+  public var MIDITimeCode_F1: Swift.Bool
+  public var songPosition_F2: Swift.Bool
+  public var songSelect_F3: Swift.Bool
+  public var reserve_F4: Swift.Bool
+  public var reserve_F5: Swift.Bool
+  public var tuneRequest_F6: Swift.Bool
+  public var endOfSystemExclusive_F7: Swift.Bool
   public var timingClock_F8: Swift.Bool
   public var reserve_F9: Swift.Bool
   public var start_FA: Swift.Bool
@@ -39,16 +46,25 @@ public class LMIDI {
     get
   }
   public static let messageReceivedNotification: Foundation.Notification.Name
-  public static let systemExclusiveReceivedNotification: Foundation.Notification.Name
-  public static let noteMessageReceivedNotification: Foundation.Notification.Name
-  public static let noteOnMessageReceivedNotification: Foundation.Notification.Name
-  public static let noteOffMessageReceivedNotification: Foundation.Notification.Name
-  public static let polyKeyPressureReceivedNotification: Foundation.Notification.Name
-  public static let chPressureReceivedNotification: Foundation.Notification.Name
-  public static let controlChangeReceivedNotification: Foundation.Notification.Name
-  public static let pitchBendReceivedNotification: Foundation.Notification.Name
-  public static let programChangeReceivedNotification: Foundation.Notification.Name
-  public static let activeSensingReceivedNotification: Foundation.Notification.Name
+  public static let noteMessage_8x9x_ReceivedNotification: Foundation.Notification.Name
+  public static let noteOffMessage_8x_ReceivedNotification: Foundation.Notification.Name
+  public static let noteOnMessage_9x_ReceivedNotification: Foundation.Notification.Name
+  public static let polyKeyPressure_Ax_ReceivedNotification: Foundation.Notification.Name
+  public static let controlChange_Bx_ReceivedNotification: Foundation.Notification.Name
+  public static let programChange_Cx_ReceivedNotification: Foundation.Notification.Name
+  public static let chPressure_Dx_ReceivedNotification: Foundation.Notification.Name
+  public static let pitchBend_Ex_ReceivedNotification: Foundation.Notification.Name
+  public static let systemExclusive_F0F7_ReceivedNotification: Foundation.Notification.Name
+  public static let MIDITimeCode_F1_ReceivedNotification: Foundation.Notification.Name
+  public static let songPosition_F2_ReceivedNotification: Foundation.Notification.Name
+  public static let songSelect_F3_ReceivedNotification: Foundation.Notification.Name
+  public static let tuneRequest_F6_ReceivedNotification: Foundation.Notification.Name
+  public static let timingClock_F8_ReceivedNotification: Foundation.Notification.Name
+  public static let start_FA_ReceivedNotification: Foundation.Notification.Name
+  public static let continue_FB_ReceivedNotification: Foundation.Notification.Name
+  public static let stop_FC_ReceivedNotification: Foundation.Notification.Name
+  public static let activeSensing_FE_ReceivedNotification: Foundation.Notification.Name
+  public static let systemReset_FF_ReceivedNotification: Foundation.Notification.Name
   public static let receivedPacketKey: Swift.String
   public static let timeStampKey: Swift.String
   public static let notePreviewFinishNotification: Foundation.Notification.Name
@@ -114,9 +130,9 @@ public class LMIDI {
   public static func controlChangeName(CC: Swift.Int) -> Swift.String?
   public func notePreview(ch: Swift.UInt8)
   public func notePreview(ch: Swift.Int)
-  public static func texted(packet: Foundation.Data) -> Swift.String
+  public static func textedPacket(_ packet: Foundation.Data) -> Swift.String
   public static func ch(of packet: Foundation.Data) -> Swift.Int
-  public static func messageTexted(packet: Foundation.Data) -> Swift.String
+  public static func textedMessage(packet: Foundation.Data) -> Swift.String
   public static func convertedUInt32Value(from7bitSMFSequence seq: Foundation.Data) -> Swift.UInt32
   public static func converted7bitValue(fromUInt32: Swift.UInt32, isVariableLength: Swift.Bool) -> Swift.UInt32
   public static func converted7bitData(fromUInt32 value: Swift.UInt32, isVariableLength: Swift.Bool) -> Foundation.Data
